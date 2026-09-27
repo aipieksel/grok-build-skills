@@ -1,12 +1,12 @@
 # Grok Build Skills
 
-Maintained by [aipieksel](https://github.com/aipieksel). Upstream credits and licenses remain with their respective authors.
+Maintained by [aipieksel](https://github.com/aipieksel). Original sources, credits, and rights are described in [LICENSE.md](LICENSE.md).
 
-**Grok Build’s own agent skills and platform references**, collected directly from the Grok Build app-builder environment and preserved here for browsing and study. The collection contains **18 skills**, their supporting references, and five Python tools for game-asset processing.
+Grok Build Skills is a browsable mirror of the instructions and references used by Grok Build's app-building environment. It brings 18 skills, their supporting guides, and five Python game-asset tools into one collection. Read it to understand how that environment approaches interface design, browser games, generated assets, authentication, data, and deployment.
 
-The collection brings platform-specific implementation details together in a browsable library: design rules, game-control checks, sprite pipelines, authentication, database wiring, deployment behavior, and more.
+Start with a task: open its `SKILL.md`, follow the references it names, and check its platform assumptions before using the guidance in another project. The material was written for a Grok-hosted TanStack/React template and may refer to tools or credentials that are absent elsewhere. This repository is an archive and study resource, not a running app or a replacement for the original host.
 
-**Start with:** [Design & UI](skills/design-ui/SKILL.md) · [Building Games](skills/building-games/SKILL.md) · [Controls](skills/controls/SKILL.md) · [Game Asset Core](skills/game-asset-core/SKILL.md)
+**Browse:** [Design & UI](skills/design-ui/SKILL.md) · [Building Games](skills/building-games/SKILL.md) · [Controls](skills/controls/SKILL.md) · [Game Asset Core](skills/game-asset-core/SKILL.md)
 
 ## Behind the platform
 
@@ -14,9 +14,7 @@ These are detailed instructions aimed at an app-building agent operating inside 
 
 The skills come from Grok Build; this repository is a mirror maintained by `aipieksel`. The bundle also includes third-party material used by Grok Build, with its original source and license notices preserved.
 
-These platform instructions are normally encountered inside Grok-generated projects. This repository brings them together as a focused, browsable skill library. A September 5, 2026 comparison confirmed that all 85 original skill and platform-reference files match an existing public `.grok` snapshot byte for byte.
-
-See [provenance and public-source evidence](docs/provenance.md) for the exact snapshot and comparison method.
+These instructions are normally encountered inside Grok-generated projects. The [provenance record](docs/provenance.md) documents the source snapshot and comparison method.
 
 ## What is worth exploring
 
